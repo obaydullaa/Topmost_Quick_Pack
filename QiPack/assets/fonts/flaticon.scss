@@ -1,0 +1,133 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?5f5c217ed0ce6ba80d9d513972577b7c") format("truetype"),
+url("./flaticon.woff?5f5c217ed0ce6ba80d9d513972577b7c") format("woff"),
+url("./flaticon.woff2?5f5c217ed0ce6ba80d9d513972577b7c") format("woff2"),
+url("./flaticon.eot?5f5c217ed0ce6ba80d9d513972577b7c#iefix") format("embedded-opentype"),
+url("./flaticon.svg?5f5c217ed0ce6ba80d9d513972577b7c#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "24-hours-support": "\f101",
+    "air-conditioner": "\f102",
+    "app": "\f103",
+    "business-and-trade": "\f104",
+    "contact": "\f105",
+    "coupons": "\f106",
+    "email": "\f107",
+    "engineer-1": "\f108",
+    "engineer": "\f109",
+    "happiness": "\f10a",
+    "happy": "\f10b",
+    "heating": "\f10c",
+    "history": "\f10d",
+    "house": "\f10e",
+    "message": "\f10f",
+    "money-bag": "\f110",
+    "office": "\f111",
+    "pin": "\f112",
+    "quality": "\f113",
+    "return-of-investment": "\f114",
+    "satisfaction": "\f115",
+    "settings": "\f116",
+    "snowfall": "\f117",
+    "technical-support": "\f118",
+    "technician": "\f119",
+    "vacuum-cleaner": "\f11a",
+    "wrench": "\f11b",
+);
+
+.flaticon-24-hours-support:before {
+    content: map-get($flaticon-map, "24-hours-support");
+}
+.flaticon-air-conditioner:before {
+    content: map-get($flaticon-map, "air-conditioner");
+}
+.flaticon-app:before {
+    content: map-get($flaticon-map, "app");
+}
+.flaticon-business-and-trade:before {
+    content: map-get($flaticon-map, "business-and-trade");
+}
+.flaticon-contact:before {
+    content: map-get($flaticon-map, "contact");
+}
+.flaticon-coupons:before {
+    content: map-get($flaticon-map, "coupons");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-engineer-1:before {
+    content: map-get($flaticon-map, "engineer-1");
+}
+.flaticon-engineer:before {
+    content: map-get($flaticon-map, "engineer");
+}
+.flaticon-happiness:before {
+    content: map-get($flaticon-map, "happiness");
+}
+.flaticon-happy:before {
+    content: map-get($flaticon-map, "happy");
+}
+.flaticon-heating:before {
+    content: map-get($flaticon-map, "heating");
+}
+.flaticon-history:before {
+    content: map-get($flaticon-map, "history");
+}
+.flaticon-house:before {
+    content: map-get($flaticon-map, "house");
+}
+.flaticon-message:before {
+    content: map-get($flaticon-map, "message");
+}
+.flaticon-money-bag:before {
+    content: map-get($flaticon-map, "money-bag");
+}
+.flaticon-office:before {
+    content: map-get($flaticon-map, "office");
+}
+.flaticon-pin:before {
+    content: map-get($flaticon-map, "pin");
+}
+.flaticon-quality:before {
+    content: map-get($flaticon-map, "quality");
+}
+.flaticon-return-of-investment:before {
+    content: map-get($flaticon-map, "return-of-investment");
+}
+.flaticon-satisfaction:before {
+    content: map-get($flaticon-map, "satisfaction");
+}
+.flaticon-settings:before {
+    content: map-get($flaticon-map, "settings");
+}
+.flaticon-snowfall:before {
+    content: map-get($flaticon-map, "snowfall");
+}
+.flaticon-technical-support:before {
+    content: map-get($flaticon-map, "technical-support");
+}
+.flaticon-technician:before {
+    content: map-get($flaticon-map, "technician");
+}
+.flaticon-vacuum-cleaner:before {
+    content: map-get($flaticon-map, "vacuum-cleaner");
+}
+.flaticon-wrench:before {
+    content: map-get($flaticon-map, "wrench");
+}
